@@ -4,7 +4,7 @@
  VMWARE Horizon View à l'aide des moniteurs d'intégrité fournis
  par les cmdlets PowerCli VMWARE.
 
- Les moniteurs d'intégrités sont les suivants:
+ ## Les moniteurs d'intégrités sont les suivants:
  CBMonitor = Contrôle l'intégrité des instances du Serveur de connexion View.
  DBMonitor = Contrôle l'intégrité de la base de données des événements.
  DomainMonitor = Contrôle l'intégrité du domaine local et de tous les domaines
