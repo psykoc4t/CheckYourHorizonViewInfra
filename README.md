@@ -17,13 +17,13 @@ Pour afficher l'ensemble des propriétés tapez "get-monitor" dans une console
 PowerCli ou après avoir chargé ce script
 
 INFOS SUPPLEMENTAIRES (source: http://www.vmware.com/files/pdf/vmw-powershell-integration-view5.pdf):
-Integrating VMware View PowerCLI into Your Own Scripts
-You can load VMware View PowerCLI cmdlets directly for those situations where PowerShell scripts won’t be
+* Integrating VMware View PowerCLI into Your Own Scripts
+* You can load VMware View PowerCLI cmdlets directly for those situations where PowerShell scripts won’t be
 run from the VMware View PowerCLI console. You can load cmdlets by dot-sourcing the add-snapin.ps1
 script from the VMware Connection Server’s extras directory. Add the following line at the start of a script
 using VMware View PowerCLI cmdlets:
 . “<install directory>\Server\extras\PowerShell\add-snapin.ps1”
-The VMware View Connection Server installation directory (noted above as <install directory>) will be
+* The VMware View Connection Server installation directory (noted above as <install directory>) will be
 under the path C:\Program Files\VMware\VMware View\ by default.
-Similar to launching from the Start Menu shortcut, this will also load the VMware vSphere PowerCLI cmdlets if
+* Similar to launching from the Start Menu shortcut, this will also load the VMware vSphere PowerCLI cmdlets if
 installed.
